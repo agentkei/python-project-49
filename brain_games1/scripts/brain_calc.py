@@ -17,7 +17,7 @@ def brain_calc_game():
 
         x = operations[play_operations]
         question_play = [str(one_number), str(x), str(two_number)]
-        question_play = ''.join(question_play)
+        question_play = ' '.join(question_play)
         print(f'Question: {question_play}')
         user_answer = input()
         print(f'Your answer: {user_answer}')
