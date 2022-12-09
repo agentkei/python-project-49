@@ -24,7 +24,7 @@ def brain_progression_game():
         random_element = str(random_element)
         str_block = (" ".join(map(str, block)))
 
-        str_block = str_block.replace(random_element, ' .. ')
+        str_block = str_block.replace(random_element, '..')
         print(f'Question: {str_block}')
         user_answer = str(input())
         if user_answer == random_element:
