@@ -13,10 +13,9 @@ def game_description():
         block.append(start)
         start = start + step
         n = n - 1
-    random_size = random.randint(0, len(block) - 1)
-    random_element = block[random_size]
+    random_element = random.randint(0, len(block) - 1)
+    random_element = block[random_element]
     correct_answer = str(random_element)
     progression_size = (" ".join(map(str, block)))
     return_question = progression_size.replace(correct_answer, '..')
     return return_question, correct_answer
-
