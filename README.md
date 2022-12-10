@@ -1,3 +1,7 @@
+### 1) This project demonstrates the process of the game brain-game. It includes modules on  determining an even number, the greatest divisor of two numbers, an arithmetic progression, choosing a prime number, the ratio of two numbers, as well as a greeting ### with the player's name.  
+### Minimum requirements to run: Windows operating system or lunix operating system.  
+### Launch instructions: downloading the project from github, using commands for the player: brain-games; brain-even; brain-calc; brain-gcd; brain-progression; brain-prime. 
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/agentkei/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/agentkei/python-project-49/actions)
 <a href="https://codeclimate.com/github/agentkei/python-project-49/maintainability">

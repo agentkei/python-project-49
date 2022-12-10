@@ -1,33 +1,12 @@
-import random
-import math
-import prompt
+#!/usr/bin/env python3
 
 
-def brain_nod_games():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f"Hello, {name}!")
-
-    n = 3
-    print("Find the greatest common divisor of given numbers.")
-    while n != 0:
-
-        one_number = random.randint(1, 100)
-        two_number = random.randint(1, 100)
-        print(f'Question: {one_number} {two_number}')
-        user_answer = (input())
-        correct_answer = str(math.gcd(one_number, two_number))
-        if str(user_answer) == correct_answer:
-            print('Correct!')
-            n = n - 1
-        else:
-            return (f"{user_answer} is wrong answer ;(. Correct "
-                    f"answer was {correct_answer}.\nLet's try again, {name}!")
-    return (f"Congratulations, {name}!")
+from brain_games1.games import brain_gcd
+from brain_games1.logic_games import run_game
 
 
 def main():
-    print(brain_nod_games())
+    run_game(brain_gcd)
 
 
 if __name__ == '__main__':
