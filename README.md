@@ -8,12 +8,12 @@
 <img src="https://api.codeclimate.com/v1/badges/9e13e803cdf37cbb85d5/maintainability" /></a>
 
 
-brain-games; brain-even (https://asciinema.org/a/cpsSTIzjW142GwlrDU76yDZWh)
+brain-games; brain-even (<script id="asciicast-cpsSTIzjW142GwlrDU76yDZWh" src="https://asciinema.org/a/cpsSTIzjW142GwlrDU76yDZWh.js" async></script>)
 
-brain-calc (https://asciinema.org/a/8B978GI9dNuMG5BwHFzkhDvBK)
+brain-calc (<script id="asciicast-8B978GI9dNuMG5BwHFzkhDvBK" src="https://asciinema.org/a/8B978GI9dNuMG5BwHFzkhDvBK.js" async></script>)
 
-brain-gcd (https://asciinema.org/a/zOM5Jps2gGGFvJbXW1GtjWgTJ)
+brain-gcd (<script id="asciicast-zOM5Jps2gGGFvJbXW1GtjWgTJ" src="https://asciinema.org/a/zOM5Jps2gGGFvJbXW1GtjWgTJ.js" async></script>)
 
-brain-progression (https://asciinema.org/a/o6FxpFzCYwhlddBumJPChod5q)
+brain-progression (<script id="asciicast-o6FxpFzCYwhlddBumJPChod5q" src="https://asciinema.org/a/o6FxpFzCYwhlddBumJPChod5q.js" async></script>)
 
-brain-prime (https://asciinema.org/a/MUi535VsVV8Z87iTIQkSeVjhl)
+brain-prime (<script id="asciicast-MUi535VsVV8Z87iTIQkSeVjhl" src="https://asciinema.org/a/MUi535VsVV8Z87iTIQkSeVjhl.js" async></script>)
