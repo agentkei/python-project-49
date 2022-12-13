@@ -4,19 +4,19 @@ version = "0.1.0"
 description = ""
 authors = ["agentkei <daniloff.konstantin2016@yandex.ru>"]
 readme = "README.md"
-packages = [{include = "brain_games1"}]
+packages = [{include = "brain_games"}]
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
 prompt = "^0.4.1"
 
 [tool.poetry.scripts]
-brain-games = "brain_games1.scripts.brain_games:main"
-brain-even = "brain_games1.scripts.brain_even:main"
-brain-calc = "brain_games1.scripts.brain_calc:main"
-brain-gcd = "brain_games1.scripts.brain_gcd:main"
-brain-progression = "brain_games1.scripts.brain_progression:main"
-brain-prime = "brain_games1.scripts.brain_prime:main"
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
