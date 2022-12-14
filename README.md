@@ -14,22 +14,23 @@
 * Python : 3.8
 
 ## Launch instructions:
-1) **Downloading the project from github git clone:** https://github.com/agentkei/python-project-49
+* ```bahs git clone https://github.com/agentkei/python-project-49```
+
 2) **Install project:** pip install --user git+https://github.com/agentkei/python-project-49 
 3) **Games are launched using commands:**  *brain-games*; *brain-even*; *brain-calc*; *brain-gcd*; *brain-progression*; *brain-prime*.
--------
+
 ## **Hexlet tests and linter status:**
 [![Actions Status](https://github.com/agentkei/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/agentkei/python-project-49/actions)
 <a href="https://codeclimate.com/github/agentkei/python-project-49/maintainability">
 <img src="https://api.codeclimate.com/v1/badges/9e13e803cdf37cbb85d5/maintainability" /></a>
 
 
-brain-games; brain-even (<script id="asciicast-cpsSTIzjW142GwlrDU76yDZWh" src="https://asciinema.org/a/cpsSTIzjW142GwlrDU76yDZWh.js" async></script>)
+### **brain-games and brain-even** [![asciicast](https://asciinema.org/a/cpsSTIzjW142GwlrDU76yDZWh.svg)](https://asciinema.org/a/cpsSTIzjW142GwlrDU76yDZWh)
 
-brain-calc (<script id="asciicast-8B978GI9dNuMG5BwHFzkhDvBK" src="https://asciinema.org/a/8B978GI9dNuMG5BwHFzkhDvBK.js" async></script>)
+### **brain-calc** [![asciicast](https://asciinema.org/a/8B978GI9dNuMG5BwHFzkhDvBK.svg)](https://asciinema.org/a/8B978GI9dNuMG5BwHFzkhDvBK)
 
-brain-gcd (<script id="asciicast-zOM5Jps2gGGFvJbXW1GtjWgTJ" src="https://asciinema.org/a/zOM5Jps2gGGFvJbXW1GtjWgTJ.js" async></script>)
+### **brain-gcd** [![asciicast](https://asciinema.org/a/zOM5Jps2gGGFvJbXW1GtjWgTJ.svg)](https://asciinema.org/a/zOM5Jps2gGGFvJbXW1GtjWgTJ)
 
-brain-progression (<script id="asciicast-o6FxpFzCYwhlddBumJPChod5q" src="https://asciinema.org/a/o6FxpFzCYwhlddBumJPChod5q.js" async></script>)
+### **brain-progression** [![asciicast](https://asciinema.org/a/o6FxpFzCYwhlddBumJPChod5q.svg)](https://asciinema.org/a/o6FxpFzCYwhlddBumJPChod5q)
 
-brain-prime (<script id="asciicast-MUi535VsVV8Z87iTIQkSeVjhl" src="https://asciinema.org/a/MUi535VsVV8Z87iTIQkSeVjhl.js" async></script>)
+### **brain-prime** [![asciicast](https://asciinema.org/a/MUi535VsVV8Z87iTIQkSeVjhl.svg)](https://asciinema.org/a/MUi535VsVV8Z87iTIQkSeVjhl)

@@ -1,14 +1,20 @@
 import random
-from sympy import isprime
+from math import sqrt
 
 
 CONDITIONS = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def checking_is_prime():
+    prime = True
     random_number = random.randint(2, 100)
-    feature = isprime(random_number)
-    return random_number, feature
+    check_number = 2
+    while check_number <= sqrt(random_number):
+        if random_number % check_number == 0:
+            prime = False
+            break
+        check_number = check_number + 1
+    return random_number, prime
 
 
 def creating_game():
@@ -17,4 +23,4 @@ def creating_game():
         correct_answer = "yes"
     else:
         correct_answer = "no"
-    return str(question), correct_answer
+    return question, correct_answer
