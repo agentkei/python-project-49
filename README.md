@@ -1,8 +1,24 @@
-### 1) This project demonstrates the process of the game brain-game. It includes modules on  determining an even number, the greatest divisor of two numbers, an arithmetic progression, choosing a prime number, the ratio of two numbers, as well as a greeting ### with the player's name.  
-### Minimum requirements to run: Windows operating system or lunix operating system.  
-### Launch instructions: downloading the project from github, using commands for the player: brain-games; brain-even; brain-calc; brain-gcd; brain-progression; brain-prime. 
+# **Brain games**
+## This project demonstrates the process of the console-game "brain-games". It includes 6 modules:
 
-### Hexlet tests and linter status:
+* Welcome with the player's name (brain-games)
+* Determining an even number (brain-even)
+* Calculate the mathematical ratio of two numbers (brain-calc)
+* Finding the largest divisor of two numbers (brain-gcd)
+* Search for an unknown number in arithmetic progression (brain-progression)
+* Definition of prime number (brain-prime)
+
+
+## Minimum requirements to run: 
+* Windows operating system or lunix operating system
+* Python : 3.8
+
+## Launch instructions:
+1) **Downloading the project from github git clone:** https://github.com/agentkei/python-project-49
+2) **Install project:** pip install --user git+https://github.com/agentkei/python-project-49 
+3) **Games are launched using commands:**  *brain-games*; *brain-even*; *brain-calc*; *brain-gcd*; *brain-progression*; *brain-prime*.
+-------
+## **Hexlet tests and linter status:**
 [![Actions Status](https://github.com/agentkei/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/agentkei/python-project-49/actions)
 <a href="https://codeclimate.com/github/agentkei/python-project-49/maintainability">
 <img src="https://api.codeclimate.com/v1/badges/9e13e803cdf37cbb85d5/maintainability" /></a>
