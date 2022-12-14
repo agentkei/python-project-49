@@ -19,6 +19,7 @@ def run_game(game):
             print('Correct!')
         else:
             print(f"{user_answer} is wrong answer ;(. Correct "
-                  f"answer was {correct_answer}.\nLet's try again, {player_name}!")
+                  f"answer was {correct_answer}."
+                  f"\nLet's try again,{player_name}!")
             return
     print(f"Congratulations, {player_name}!")

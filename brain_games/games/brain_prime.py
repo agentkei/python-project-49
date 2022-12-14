@@ -1,5 +1,5 @@
 import random
-from sympy import *
+from sympy import isprime
 
 
 CONDITIONS = 'Answer "yes" if given number is prime. Otherwise answer "no".'

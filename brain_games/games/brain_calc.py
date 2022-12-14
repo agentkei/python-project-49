@@ -10,8 +10,8 @@ def create_math_arguments():
     first_argument = str(random.randint(1, 100))
     second_argument = str(random.randint(1, 100))
     index_math_operation = random.randint(0, 2)
-    random_math_operation = math_operations[index_math_operation]
-    math_expression = (f"{first_argument} {random_math_operation} {second_argument}")
+    random_operation = math_operations[index_math_operation]
+    math_expression = (f"{first_argument} {random_operation} {second_argument}")
     return math_expression
 
 
