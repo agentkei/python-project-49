@@ -23,11 +23,21 @@ pip install --user git+https://github.com/agentkei/python-project-49
 ## Usage:
 Games are launched using commands:  
 ```bash
-brain-games 
-brain-even 
-brain-calc 
-brain-gcd 
-brain-progression 
+brain-games
+``` 
+```bash
+brain-even
+```
+```bash
+brain-calc
+```
+```bash
+brain-gcd
+```
+```bash
+brain-progression
+```
+```bash
 brain-prime
 ```
 ## **Hexlet tests**
@@ -40,6 +50,8 @@ brain-prime
 
 ```bash
 brain-games
+```
+```bash
 brain-even
 ```
 [![asciicast](https://asciinema.org/a/cpsSTIzjW142GwlrDU76yDZWh.svg)](https://asciinema.org/a/cpsSTIzjW142GwlrDU76yDZWh)
