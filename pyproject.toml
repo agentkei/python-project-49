@@ -1,10 +1,14 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["agentkei <daniloff.konstantin2016@yandex.ru>"]
+description = "Brain Games is a complex of 5 console games with numbers"
+repository = "https://github.com/agentkei/python-project-49"
+authors = ["Danilov Konstantin <daniloff.konstantin2016@yandex.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
+classifiers = [
+    "Topic :: Games/Entertainment :: Educational games"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
