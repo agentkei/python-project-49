@@ -2,10 +2,10 @@ import random
 import math
 
 
-CONDITIONS = 'Find the greatest common divisor of given numbers.'
+CONDITION = 'Find the greatest common divisor of given numbers.'
 
 
-def creating_game():
+def generate_round():
     one_number = random.randint(1, 100)
     two_number = random.randint(1, 100)
     correct_answer = str(math.gcd(one_number, two_number))

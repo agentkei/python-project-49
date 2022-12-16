@@ -5,17 +5,17 @@ MAX_ROUNDS = 3
 
 
 def run_game(game):
-    number_of_rounds = 0
+    round_number = 0
     print('Welcome to the Brain Games!')
     player_name = prompt.string('May I have your name? ')
     print(f"Hello, {player_name}!")
-    print(game.CONDITIONS)
-    while number_of_rounds != MAX_ROUNDS:
-        question, correct_answer = game.creating_game()
+    print(game.CONDITION)
+    while round_number != MAX_ROUNDS:
+        question, correct_answer = game.generate_round()
         print(f'Question: {question}')
-        user_answer = input()
+        user_answer = prompt.string('Your answer: ')
         if user_answer == correct_answer:
-            number_of_rounds = number_of_rounds + 1
+            round_number = round_number + 1
             print('Correct!')
         else:
             print(f"{user_answer} is wrong answer ;(. Correct "
