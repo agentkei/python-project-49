@@ -11,11 +11,11 @@ def generate_round():
     index_math_operation = random.randint(0, 2)
     math_operations = ["+", "-", "*"]
     rndm_operat = math_operations[index_math_operation]
-    question, cor_answer = calculate_result(first_arg, rndm_operat, second_arg)
-    return question, cor_answer
+    math_expression = (f"{first_arg} {rndm_operat} {second_arg}")
+    cor_answer = calculate_result(math_expression)
+    return math_expression, cor_answer
 
 
-def calculate_result(first_argument, math_operations, second_argument):
-    math_expression = (f"{first_argument} {math_operations} {second_argument}")
+def calculate_result(math_expression):
     result = str(ne.evaluate(math_expression))
-    return math_expression, result
+    return result

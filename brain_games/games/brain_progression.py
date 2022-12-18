@@ -10,10 +10,9 @@ def generate_round():
     step = random.randint(1, 20)
     progression = generate_progression(start, length, step)
     random_element_index = random.randint(0, len(progression) - 1)
-    random_element_progression = progression[random_element_index]
-    correct_answer = str(random_element_progression)
+    correct_answer = str(progression[random_element_index])
+    progression[random_element_index] = '..'
     question = (" ".join(map(str, progression)))
-    question = question.replace(correct_answer, '..')
     return question, correct_answer
 
 
