@@ -9,7 +9,7 @@ def run_game(game):
     print('Welcome to the Brain Games!')
     player_name = prompt.string('May I have your name? ')
     print(f"Hello, {player_name}!")
-    print(game.CONDITION)
+    print(game.DESCRIPTION)
     while round_number != MAX_ROUNDS:
         question, correct_answer = game.generate_round()
         print(f'Question: {question}')

@@ -2,7 +2,7 @@ import random
 import math
 
 
-CONDITION = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def generate_round():

@@ -1,6 +1,4 @@
-## **Hexlet tests**
 [![Actions Status](https://github.com/agentkei/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/agentkei/python-project-49/actions)
-## **Linter status:**
 <a href="https://codeclimate.com/github/agentkei/python-project-49/maintainability">
 <img src="https://api.codeclimate.com/v1/badges/9e13e803cdf37cbb85d5/maintainability" /></a>
 
