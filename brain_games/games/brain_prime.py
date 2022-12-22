@@ -16,7 +16,7 @@ def generate_round():
 
 def is_prime(number):
     check_number = 2
-    if number == 1 or number == 0:
+    if number <= 1:
         return False
     while check_number <= sqrt(number):
         if number % check_number == 0:
